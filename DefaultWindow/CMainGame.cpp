@@ -53,6 +53,7 @@ void CMainGame::Render()
 
 		SetWindowText(g_hWnd, m_szFPS);
 
+
 		m_iFPS = 0;
 		m_dwTime = GetTickCount64();
 	}
